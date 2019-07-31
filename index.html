@@ -6,7 +6,7 @@
     <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="./styles.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -34,7 +34,13 @@
         <div class="modal">
           <p>Try it free 7 days <span>then $20/mo. there after</span></p>
         </div>
-        <form action=""></form>
+        <form action="" method="GET" class="sign-up">
+          <input type="text" id="first-name" name="first-name" placeholder="First Name"/>
+          <input type="text" id="last-name" name="last-name" placeholder="Last Name"/>
+          <input type="email" id="email" name="email" placeholder="Email Address"/>
+          <input type="password" id="password" name="password" placeholder="Password"/>
+          <button>Claim your free trial</button>
+        </form>
       </div>
     </div>
   </body>

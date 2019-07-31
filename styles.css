@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  color: white;
 }
 body {
   background: hsl(0, 100%, 74%) url("./images/bg-intro-desktop.png");
@@ -12,7 +11,7 @@ body {
 }
 .container {
   margin-top: 114px;
-  border: 1px solid black;
+
   height: 560px;
   width: 1110px;
   display: flex;
@@ -22,12 +21,12 @@ body {
 .form-comp {
   height: 100%;
   width: 50%;
-  border: 1px solid blue;
 }
 
 .text-comp {
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .text-comp h1 {
@@ -37,6 +36,50 @@ body {
 }
 
 .text-comp p {
-  font-weight: 300;
+  font-weight: 200;
 }
 
+.form-comp .modal {
+  width: 100%;
+  background: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 25px;
+}
+span {
+  font-weight: 200;
+}
+form{
+    height: 475px;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+input{
+    height: 55px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    
+}
+
+input::placeholder{
+}
+button{
+    height: 55px;
+    background: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
